@@ -2,6 +2,7 @@ import axios from "./apis/axios";
 // import axios from "axios";
 import "./App.css";
 import { useEffect, useState } from "react";
+import AxiosFetch from "./components/AxiosFetch";
 
 function App() {
   const getData = async ()=>{
@@ -45,8 +46,23 @@ function App() {
           </div>
         );
       })}
+      <hr /><hr />
+      <AxiosFetch/>
     </div>
   );
 }
 
 export default App;
+
+// import AxiosFetch from "./components/AxiosFetch"
+
+// const App = () => {
+//   return (
+//     <>
+//     <h2 className='text-3xl text-blue-500'>hi hello</h2>
+//       <AxiosFetch/>
+//     </>
+//   )
+// }
+
+// export default App
