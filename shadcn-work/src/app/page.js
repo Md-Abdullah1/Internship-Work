@@ -11,7 +11,7 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div className="h-full   p-4  bg-blue-200  flex justify-between flex-col items-center  gap-3 ">
+    <div className="h-screen   p-4  bg-blue-200  flex justify-between flex-col items-center  gap-3 ">
       
       {/* <AlertDemo/> */}
         <Hero/>
